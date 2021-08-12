@@ -1,3 +1,7 @@
+#portfolio, #contact {
+    background-color: {{ site.color.secondary-dark }}
+}
+
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -49,7 +53,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f45c";
     display: inline-block;
     position: relative;
     top: -.8em;

@@ -25,25 +25,44 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: DD34F6 #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: F84E51 #FD6E8A
+  secondary-dark: 1AA7F6 #A2122F
+
+linkimg:
+  - img: img/discordpromobanner.png
+    url: https://discord.gg/qut9ejyun7
+  - img: img/patreonpromobanner.png
+    url: https://www.patreon.com/StyleNSubstance
+
+linkicon:
+  - title: youtube
+    url: https://www.youtube.com/channel/UCVquWLwCaCwpUNzpsmPJZUg
+  - title: twitch
+    url: http://twitch.tv/mikopath
+  - title: tiktok
+    url: https://vm.tiktok.com/ZMeD7yu2W/
+  - title: twitter
+    url: http://twitter.com/TheBeanbagBoyz
+  - title: instagram
+    url: https://instagram.com/thebeanbagboysdev?igshid=ut72y79h1wls
+  - title: reddit
+    url: https://www.reddit.com/user/TheBeanbagBoys
 
 # Footer settings
 footer:
-  copyright: Style'N'Substance Team and Charles Moonen
-  location: Location
+  copyright: The Beanbag Boys and Charles Moonen
+  location: Patreon
   social: Around the Web
   credits: Credits
 
 release:
-  - img: img/anvil.svg
-  - url: https://www.curseforge.com/minecraft/texture-packs/stylensubstance
+  img: img/anvil.svg
+  url: https://www.curseforge.com/minecraft/texture-packs/stylensubstance
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-
   - title: patreon
     url: https://www.patreon.com/StyleNSubstance
   - title: discord
@@ -63,11 +82,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: <a href="https://www.patreon.com/StyleNSubstance"><i class="fa fa-fw fa-patreon"></i></a>
+  - line: The Beanbag Boys
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Thanks to <a href="https://github.com/turnipjs">Charles Moonen</a> for designing and building the website.'
 
 # Build settings
 markdown: kramdown
