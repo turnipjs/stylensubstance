@@ -1,4 +1,5 @@
 #portfolio, #contact {
+    color: white;
     background-color: #{{ site.color.secondary-dark }};
 }
 
@@ -9,6 +10,16 @@
 
 .releaseicon {
     width: 1.5em;
+}
+
+.downloadicon {
+    height: 6em;
+}
+
+#download {
+    height: 6em;
+    width: 10em;
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 /*!
@@ -35,7 +46,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary-dark }};
 }
 
 h1,
@@ -62,7 +73,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f45c";
+    content: "■";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -77,15 +88,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #fff;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: #fff;
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: #fff;
     background-color: #fff;
 }
 

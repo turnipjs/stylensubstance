@@ -25,10 +25,10 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: DD34F6 #80B3FF
+  primary: CF20F3 #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: F84E51 #FD6E8A
-  secondary-dark: 1AA7F6 #A2122F
+  secondary-dark: 3D84F5 #A2122F
 
 linkimg:
   - img: img/discordpromobanner.png
