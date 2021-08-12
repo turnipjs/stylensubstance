@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Style'N'Substance
+email: example@example.com
+url: https://stylensubstance.com
+description: "Style'N'Substance is a mech-fantasy 128x pack focused on elevating and enhancing your Minecraft experience using optifine."
+keywords: "minecraft, texture pack, art, game"
+skills: "Style'N'Substance is a mech-fantasy 128x pack focused on elevating and enhancing your Minecraft experience using optifine. With many optimisations planned, including custom mob models, connected textures, variation, nbt item tags, mob skin variations, complete redesigns and maybe even PBR in the future. All held together by a fantastic and mesmerising art style from Eedaeth, and promoted, coded and with models by Mikopath."
+meta_author: Moonen Charles
 
 # Google webmaster tools
 google_verify:
@@ -32,23 +32,34 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Style'N'Substance Team and Charles Moonen
   location: Location
   social: Around the Web
   credits: Credits
 
+release:
+  - img: img/anvil.svg
+  - url: https://www.curseforge.com/minecraft/texture-packs/stylensubstance
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+
+  - title: patreon
+    url: https://www.patreon.com/StyleNSubstance
+  - title: discord
+    url: https://discord.gg/qut9ejyun7
+  - title: youtube
+    url: https://www.youtube.com/channel/UCVquWLwCaCwpUNzpsmPJZUg
+  - title: twitch
+    url: http://twitch.tv/mikopath
+  - title: tiktok
+    url: https://vm.tiktok.com/ZMeD7yu2W/
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: http://twitter.com/TheBeanbagBoyz
+  - title: instagram
+    url: https://instagram.com/thebeanbagboysdev?igshid=ut72y79h1wls
+  - title: reddit
+    url: https://www.reddit.com/user/TheBeanbagBoys
 
 # Postal address (add as many lines as necessary)
 address:
