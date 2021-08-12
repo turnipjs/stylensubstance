@@ -1,5 +1,10 @@
 #portfolio, #contact {
-    background-color: {{ site.color.secondary-dark }}
+    background-color: #{{ site.color.secondary-dark }};
+}
+
+.linkimg {
+    width: 100%;
+    margin-bottom: 3em;
 }
 
 /*!
