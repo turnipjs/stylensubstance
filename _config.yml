@@ -82,8 +82,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: <a href="https://www.patreon.com/StyleNSubstance"><i class="fa fa-fw fa-patreon"></i></a>
-  - line: The Beanbag Boys
+  - line: <a href="https://www.patreon.com/StyleNSubstance"><i class="fa fa-fw fa-patreon"></i>
+  - line: The Beanbag Boys</a>
 
 # Credits content
 credits: 'Thanks to <a href="https://github.com/turnipjs">Charles Moonen</a> for designing and building the website.'

@@ -6,12 +6,12 @@
                     <h2>Links</h2>
                     <hr class="star-light">
                 </div>
-            </div>\
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="{{ site.release.url }}" class="btn-social btn-outline">
+                    <a href="{{ site.release.url }}" id="linksreleaserow">
                         <img class="downloadicon" src="{{site.release.img}}" alt="curseforge">
-                        <button type="button" class="btn" id="download">Download</button>
+                        <button type="button" class="btn">Download</button>
                     </a>
                 </div>
             </div>
@@ -24,7 +24,7 @@
             {% endfor %}
             {% for icon in site.linkicon %}
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-2 text-center">
                         <a href="{{ icon.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ icon.title }}"></i></a>
                     </div>
                 </div>

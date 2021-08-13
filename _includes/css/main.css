@@ -1,3 +1,7 @@
+.img-icon {
+    height: 2em;
+}
+
 #portfolio, #contact {
     color: white;
     background-color: #{{ site.color.secondary-dark }};
@@ -16,8 +20,19 @@
     height: 6em;
 }
 
-#download {
-    height: 6em;
+#linksreleaserow {
+    text-decoration: none;
+}
+
+#linksreleaserow > img {
+    margin-bottom: 3em;
+}
+#linksreleaserow > button {
+    margin-left: 1.5em;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    color: white;
+    height: 3em;
     width: 10em;
     background-color: #{{ site.color.secondary-dark }};
 }
