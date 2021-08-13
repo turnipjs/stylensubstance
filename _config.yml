@@ -86,7 +86,7 @@ address:
   - line: The Beanbag Boys</a>
 
 # Credits content
-credits: 'Thanks to <a href="https://github.com/turnipjs">Charles Moonen</a> for designing and building the website.'
+credits: 'Thanks to <a class="cleanunderlinelink" href="https://github.com/turnipjs">Charles Moonen</a> for designing and building the website.'
 
 # Build settings
 markdown: kramdown
