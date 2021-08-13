@@ -3,6 +3,11 @@
     text-decoration: none;
 }
 
+.cleanunderlinelink {
+    color: white;
+    text-decoration: underline;
+}
+
 .img-icon {
     height: 2em;
 }
@@ -19,6 +24,10 @@
 
 .releaseicon {
     width: 1.5em;
+}
+
+a:hover > .releaseicon {
+    color: rgb(207, 32, 243);
 }
 
 .downloadicon {
@@ -41,6 +50,8 @@
     width: 10em;
     background-color: #{{ site.color.secondary-dark }};
 }
+
+
 
 /*!
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
