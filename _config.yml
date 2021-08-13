@@ -82,7 +82,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: <a href="https://www.patreon.com/StyleNSubstance"><i class="fa fa-fw fa-patreon"></i>
+  - line: <a class="cleanlink" href="https://www.patreon.com/StyleNSubstance"><i class="fa fa-fw fa-patreon"></i>
   - line: The Beanbag Boys</a>
 
 # Credits content
