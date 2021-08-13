@@ -9,7 +9,9 @@
 }
 
 .img-icon {
-    height: 2em;
+    height: 3.5em;
+    position: relative;
+    top: -1.5em;
 }
 
 #portfolio, #contact {
