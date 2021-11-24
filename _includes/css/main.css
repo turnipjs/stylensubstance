@@ -140,13 +140,13 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    /* background: #{{ site.color.primary }}; */
 }
 
-header .container {
+/* header .container {
     padding-top: 100px;
     padding-bottom: 50px;
-}
+} */
 
 header img {
     display: block;
