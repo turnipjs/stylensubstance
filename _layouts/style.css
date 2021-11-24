@@ -5,6 +5,7 @@
 .fullscreen-bg {
   z-index: -1;
   position: absolute;
+  top: 1em;
   overflow: hidden;
   height: 100%;
 }
