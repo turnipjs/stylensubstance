@@ -1,2 +1,24 @@
 {% include css/bootstrap.min.css %}
 {% include css/main.css %}
+{{ content }}
+
+.fullscreen-bg {
+  z-index: -1;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+}
+
+.fullscreen-bg__video {
+  position: fixed;
+  left: 0;
+  min-width: 100vw;
+  min-height: 850px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .fullscreen-bg__video {
+    min-height: 400px;
+  }
+}
